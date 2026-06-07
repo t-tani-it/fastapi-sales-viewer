@@ -66,10 +66,10 @@ uvicorn src.main:app --reload
 http://localhost:8000/sales
 ```
 ### 技術スタック（Tech Stack）
-Python 3
-FastAPI
-pandas
-uvicorn
+- Python 3
+- FastAPI
+- pandas
+- uvicorn
 
 
 # ライセンス（任意）
