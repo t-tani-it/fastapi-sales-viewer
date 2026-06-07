@@ -1,0 +1,2 @@
+# fastapi-sales-viewer
+pandasを利用したcsvの読み込みと計算、FastAPIを利用したWebブラウザ上での表形式での表示
