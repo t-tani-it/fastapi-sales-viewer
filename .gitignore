@@ -1,3 +1,10 @@
+# others
+data/*.csv
+
+# permit sample_sales.csv to be tracked by git, even though it's in the data/ directory
+!data/sample_sales.csv
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
