@@ -41,31 +41,36 @@ fastapi-sales-viewer/
 
 # 使い方（How to Run）
 ## 1. リポジトリをクローン
-bash
+'''bash
 git clone https://github.com/t-tani-it/fastapi-sales-viewer.git
 cd fastapi-sales-viewer
+'''
 
 ## 2. ライブラリをインストール
-bash
+'''bash
 pip install -r requirements.txt
+'''
 
 ## 3. CSV の差し替え
 data/sample_sales.csv を差し替えてください。
 （文字コードは cp932 を想定）
 
 ## 4. アプリを起動
-bash
+'''bash
 uvicorn src.main:app --reload
+'''
 ※ src/main.py の中にある app を起動しています。
 
 ## 5. ブラウザで確認
-コード
+'''コード
 http://localhost:8000/sales
-🛠 技術スタック（Tech Stack）
+'''
+### 技術スタック（Tech Stack）
 Python 3
 FastAPI
 pandas
 uvicorn
+
 
 # ライセンス（任意）
 MIT License
