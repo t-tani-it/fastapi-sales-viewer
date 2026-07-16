@@ -72,5 +72,5 @@ http://localhost:8000/sales
 - uvicorn
 
 
-# ライセンス（任意）
+# ライセンス
 MIT License
