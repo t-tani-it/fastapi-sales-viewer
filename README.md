@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="charts/売上CSVをブラウザ表示.png" alt="fastapi-sales-viewerの紹介バナー">
+</p>
 
 # プロジェクト概要（Overview）
 ## 売上データ閲覧アプリ（FastAPI）
